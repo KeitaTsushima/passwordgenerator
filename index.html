@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <h1>Generate a</h1>
+        <h1 class="title">random password</h1>
+        <h2>Never use an insecure password again!</h2>
+        
+        <div class="digits">
+            <label for="digits">How many digits? (6 to 18)</label>
+            <input class="length" type="number" id="digits-el"
+            min="6" max="18" value="18">
+        </div>
+
+        <div class="kinds">
+            <label>What kind of characters?</label>
+            <label><input type="radio" name="kinds" class="kinds-el" value="letters" id="kinds0-el">Letters only</label>
+            <label><input type="radio" name="kinds" class="kinds-el" value="numbers" id="kinds1-el">Letters & numbers</label>
+            <label><input type="radio" name="kinds" class="kinds-el" value="symbols" id="kinds2-el">ALL(letters, numbers and symbols)</label>
+        </div>
+
+        <button id="generatePass-el" class="inactive">Generate passwords</button>
+        <div class="display">
+            <p id="pass1-el">......</p>
+            <p id="pass2-el">......</p>
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
