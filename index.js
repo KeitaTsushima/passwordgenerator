@@ -74,14 +74,14 @@ function setCharacters() {
     return characters
 }
 
-function copy1ToClipboard() {
-    setTimeout(() => navigator.clipboard.writeText(pass1), 500);
-    alert("コピーできました！ : " + pass1)
-}
+// function copy1ToClipboard() {
+//     setTimeout(() => navigator.clipboard.writeText(pass1), 500);
+//     alert("コピーできました！ : " + pass1)
+// }
 
-function copy2ToClipboard() {
-    setTimeout(() => navigator.clipboard.writeText(pass2), 500);
-    alert("コピーできました！ : " + pass2)
-}
+// function copy2ToClipboard() {
+//     setTimeout(() => navigator.clipboard.writeText(pass2), 500);
+//     alert("コピーできました！ : " + pass2)
+// }
 
 
